@@ -1,5 +1,5 @@
 <xml-groups>
-    <xml-group name="cluster-health" resource-type="node" resource-xpath="/">
+    <xml-group name="cluster-health" resource-type="node" resource-xpath="/health">
         <xml-object name="numOfNodes" type="GAUGE" xpath="number_of_nodes"/>
         <xml-object name="numOfDataNodes" type="GAUGE" xpath="number_of_data_nodes"/>
         <xml-object name="actPrimShards" type="GAUGE" xpath="active_primary_shards"/>

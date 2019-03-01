@@ -1,0 +1,5 @@
+<xml-groups>
+    <xml-group name="cluster" resource-type="node" resource-xpath="/stats">
+        <xml-object name="clusterName" type="STRING" xpath="cluster_name"/>
+    </xml-group>
+</xml-groups>
